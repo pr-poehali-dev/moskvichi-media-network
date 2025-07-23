@@ -190,7 +190,7 @@ const Index = () => {
       { name: "Северное Бутово", link: "https://t.me/Severnoe_Butovo" },
       { name: "Тёплый Стан", link: "https://t.me/Warm_Stan" },
       { name: "Южное Бутово", link: "https://t.me/Uzhnoe_Butovo" },
-      { name: "Ясенево 1", link: "https://t.me/s29641" },
+      { name: "Новые Черёмушки", link: "https://t.me/s29641" },
       { name: "Ясенево 2", link: "https://t.me/s29642" }
     ]
   };
@@ -413,7 +413,7 @@ const Index = () => {
         {/* Footer */}
         <footer className="px-6 py-8 text-center border-t border-white/20">
           <p className="text-gray-300">
-            © 2025 Москвичи. Сеть столичных медиа.
+            © 2022 Москвичи. Сеть столичных медиа.
           </p>
         </footer>
       </div>
