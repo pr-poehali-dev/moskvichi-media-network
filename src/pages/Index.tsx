@@ -191,7 +191,7 @@ const Index = () => {
       { name: "Тёплый Стан", link: "https://t.me/Warm_Stan" },
       { name: "Южное Бутово", link: "https://t.me/Uzhnoe_Butovo" },
       { name: "Новые Черёмушки", link: "https://t.me/s29641" },
-      { name: "Ясенево 2", link: "https://t.me/s29642" }
+      { name: "Ясенево", link: "https://t.me/s29642" }
     ]
   };
 
@@ -258,38 +258,38 @@ const Index = () => {
         </section>
 
         {/* Who We Are Section */}
-        <section className="px-6 py-16 bg-white/10 backdrop-blur-md">
+        <section className="px-6 py-16">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-center text-white">
+            <h2 className="text-4xl font-bold mb-8 text-center text-white drop-shadow-lg">
               Кто мы?
             </h2>
-            <div className="bg-white/20 backdrop-blur-sm rounded-2xl p-8 shadow-2xl">
-              <p className="text-lg text-gray-100 mb-6 leading-relaxed">
+            <div className="bg-white/95 backdrop-blur-sm rounded-2xl p-8 shadow-2xl border border-gray-200">
+              <p className="text-lg text-gray-800 mb-6 leading-relaxed text-center">
                 Мы — крупнейшая сеть районных Telegram-каналов Москвы.
               </p>
-              <p className="text-lg text-gray-100 mb-6 leading-relaxed">
+              <p className="text-lg text-gray-800 mb-6 leading-relaxed text-center">
                 Проект «Москвичи» объединяет все районы столицы в едином информационном пространстве:
               </p>
-              <ul className="space-y-4 text-gray-100 mb-8">
+              <ul className="space-y-4 text-gray-700 mb-8">
                 <li className="flex items-start">
-                  <Icon name="MapPin" className="mr-3 mt-1 text-blue-400" size={20} />
+                  <Icon name="MapPin" className="mr-3 mt-1 text-blue-600" size={20} />
                   <span>Канал каждого района Москвы — быть в курсе всех новостей своего района, присылать свои инфоповоды и фотографии</span>
                 </li>
                 <li className="flex items-start">
-                  <Icon name="ShoppingCart" className="mr-3 mt-1 text-blue-400" size={20} />
+                  <Icon name="ShoppingCart" className="mr-3 mt-1 text-blue-600" size={20} />
                   <span>Канал Барахолки — купить, продать, обменять</span>
                 </li>
                 <li className="flex items-start">
-                  <Icon name="Search" className="mr-3 mt-1 text-blue-400" size={20} />
+                  <Icon name="Search" className="mr-3 mt-1 text-blue-600" size={20} />
                   <span>Каналы Бюро находок — если потеряли кошелёк, документы или убежала собака</span>
                 </li>
                 <li className="flex items-start">
-                  <Icon name="MessageCircle" className="mr-3 mt-1 text-blue-400" size={20} />
+                  <Icon name="MessageCircle" className="mr-3 mt-1 text-blue-600" size={20} />
                   <span>Окружные чаты — обсудить наболевшие вопросы благоустройства, парковок, безопасности и других тем, которые волнуют каждый микрорайон</span>
                 </li>
               </ul>
               <div className="text-center">
-                <p className="text-lg text-gray-100 mb-4">
+                <p className="text-lg text-gray-800 mb-4 font-medium">
                   Найди медиа своего района:
                 </p>
                 <Button 
@@ -299,7 +299,7 @@ const Index = () => {
                   @Moscvich_bot
                 </Button>
                 <div className="mt-4">
-                  <p className="text-lg text-gray-100 mb-4">
+                  <p className="text-lg text-gray-800 mb-4 font-medium">
                     Подпишись на наш главный канал:
                   </p>
                   <Button 
