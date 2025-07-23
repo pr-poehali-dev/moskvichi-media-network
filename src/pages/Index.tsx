@@ -223,9 +223,9 @@ const Index = () => {
         <header className="px-6 py-4">
           <div className="flex items-center">
             <img 
-              src="/img/5f9567c5-efd0-40c2-b3a1-7c6d6333ced9.jpg" 
+              src="https://cdn.poehali.dev/files/505ff971-381c-47f1-8278-207e3bea1b7a.jpg" 
               alt="Москвичи" 
-              className="h-12 w-auto mr-3 rounded-lg"
+              className="h-12 w-12 mr-3 rounded-full object-cover"
             />
             <div className="text-white">
               <h1 className="text-2xl font-bold">Москвичи</h1>
@@ -290,14 +290,25 @@ const Index = () => {
               </ul>
               <div className="text-center">
                 <p className="text-lg text-gray-100 mb-4">
-                  Найти медиа своего района и подпишись:
+                  Найди медиа своего района:
                 </p>
                 <Button 
-                  className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full shadow-lg"
+                  className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full shadow-lg mb-4"
                   onClick={() => window.open('https://t.me/Moscvich_bot', '_blank')}
                 >
                   @Moscvich_bot
                 </Button>
+                <div className="mt-4">
+                  <p className="text-lg text-gray-100 mb-4">
+                    Подпишись на наш главный канал:
+                  </p>
+                  <Button 
+                    className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full shadow-lg"
+                    onClick={() => window.open('https://t.me/Mos_Never_sleep', '_blank')}
+                  >
+                    @Mos_Never_sleep
+                  </Button>
+                </div>
               </div>
             </div>
           </div>
